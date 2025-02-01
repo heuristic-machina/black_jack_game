@@ -1,6 +1,6 @@
 {
-  "name": "Scrim-s01ua8a",
-  "description": "https://scrimba.com/learn-javascript-c0v/~02g",
+  "name": "black_jack",
+  "description": "vite and js",
   "scripts": {
     "start": "vite",
     "dev": "vite",
