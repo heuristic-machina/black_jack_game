@@ -11,7 +11,7 @@ let cardsEl = document.getElementById("cards-el")
 
 // change cards from hard coded to dynamic
 function getRandomCard() {
-    return 5;
+    return 3;
 }
 
 function startGame() {
