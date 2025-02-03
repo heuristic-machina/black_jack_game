@@ -10,8 +10,12 @@ let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 
 // change cards from hard coded to dynamic
+// Make this function return a random number between 1 and 13
 function getRandomCard() {
-    return 3;
+    // return 3;
+    let randomNumber = Math.floor( Math.random() * 13 ) + 1
+    return randomNumber
+
 }
 
 function startGame() {
@@ -47,3 +51,4 @@ function newCard() {
     console.log(cards)
     renderGame()
 }
+
