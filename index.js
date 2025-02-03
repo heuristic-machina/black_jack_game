@@ -12,8 +12,17 @@ let cardsEl = document.getElementById("cards-el")
 // change cards from hard coded to dynamic
 // Make this function return a random number between 1 and 13
 function getRandomCard() {
-    // return 3;
-    return Math.floor( Math.random() * 13 ) + 1
+// add ace and face cards logic 
+// if 1     -> return 11
+    let randomNumber = Math.floor( Math.random()*13 ) + 1
+    if (randomNumber > 10) {
+        return 10
+        // if 11-13 -> return 10
+    } else if (randomNumber === 1 ) {
+        return 11
+    } else {
+        return randomNumber
+    }
 }
 
 function startGame() {
