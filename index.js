@@ -10,9 +10,14 @@ let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 
 let player = {
-    name:"Kyle",
-    chips: 1500
+    name:"Kylie",
+    chips: 1500,
+    sayHello: function() {
+        console.log('Hi ' + player.name + '!')
+    }
 }
+
+player.sayHello()
 
 let playerEl = document.getElementById('player-el')
 playerEl.textContent = player.name + ': $' + player.chips
