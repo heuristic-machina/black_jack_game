@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "netlify-cli": "^18.1.0",
     "vite": "latest"
-  },
-  "devDependencies": {}
+  }
 }
